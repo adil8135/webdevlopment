@@ -1,0 +1,65 @@
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+.backgroundcolor{
+    background-color: #2d2d2d;
+    color: aliceblue;
+}
+#header{
+    /* padding: 0rem 1rem; */
+    padding: 0.5rem;
+}
+.nav_container{
+    height: 30px;
+    /* background-color: cyan; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_block{
+    /* float: left; */
+    font-style: italic;
+    /* font-size: 1.5rem; */
+
+    /* color: #29627e;   */
+    color: aliceblue;
+    /* text-align: center; */
+    /* flex-shrink: 2; */    
+}
+figure{
+    text-align: center;
+    margin: 1rem;
+}
+#bio,#achieve,#resource,#footer{
+    padding: 0.5rem;
+}
+
+a{
+    color: bisque;
+}
+.aside2{
+    text-align: end;
+}
+h2{
+/* font-size: 5rem; */
+text-align: center;
+}
+p{
+    /* padding: 0.5rem; */
+    /* font-size: 1.5rem; */
+    padding: 0.5rem 2rem;
+    margin: 2rem 0rem;
+}
+ul{
+       /* padding: 0.5rem; */
+       /* font-size: 1.5rem; */
+       padding: 0.5rem  4rem;
+       margin: 2rem 0rem;
+}

@@ -1,0 +1,16 @@
+h1{
+    text-shadow: 3px 3px 3px red,10px 10px 10px green;
+    /* horizontal --- virtical --- blur --- colour after , you can add more shadow*/
+}
+.box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 10px black,20px 20px  blue;
+    /* horizontal --- virtical --- blur --- colour after , you can add more shadow*/
+    box-shadow: -10px -10px 10px black,20px 20px  blue;
+    /* if you want to change direction then use negative symbol but not in blur */
+    color: red;
+    /* this choose font color */
+
+}

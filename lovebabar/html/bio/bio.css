@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+/* now we going to do navigation shrik code */
+
+
+#home{
+    /* order: 2; */
+}
+#biography{
+    /* order: 1; */
+}
+
+/* end of the navigation program */
+
+.aside1 {
+    width: 40%;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    float:  right;
+    box-shadow: inset 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+    color: aliceblue;
+    
+}
+
+    .aside2{
+    width: 15%;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    float:  right;
+    font-style: italic;
+    color: #29627e;   
+    color: aliceblue;
+
+ }
+figure,#navup {
+    text-align: center;
+    color: aliceblue;
+
+    
+}
+.h2{
+    font-size: 5rem;
+    padding: 0 10rem;
+    color: aliceblue;
+}
+.ptext{
+    font-size: 1.2rem;
+    padding: 0 2rem;
+    margin: 0.5rem 0rem;
+    color: aliceblue;
+
+}
+.p1{
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    margin: 5rem 0rem;
+    color: aliceblue;
+}
+#contact{
+    padding: 0 2rem;
+    color: aliceblue;
+
+}
+.psection{
+    background-color: rgb(45, 45, 45);
+    color: aliceblue;
+
+}
