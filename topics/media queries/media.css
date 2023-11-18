@@ -1,0 +1,11 @@
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    border: 2px solid black;
+}
+@media (min-width:700px) {
+    .box{
+        background-color: wheat;
+    }
+}

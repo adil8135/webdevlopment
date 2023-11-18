@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: black; */
+}
+#container1{
+    width: 100%;
+    /* background-color:  rgba(0, 0, 0, 0.13);; */
+    height: 4%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: ; */
+    /* align-items: ; */
+    width: 100%;
+    height: 23%;
+    /* background-color: rgba(0, 0, 0, 0.13); */
+    color: aliceblue;
+    padding-top: 2px;
+    padding-top: 4px;
+    position: sticky;
+    top: 0;
+}
+#menu_container{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+.menu{
+    margin-top: 24px;
+    /* margin-left: 6px; */
+    /* padding: 10px; */
+    /* font-size: 10px; */
+}
+.logo{
+    margin-left: 65px;
+    padding: 3px;
+}
+#container{
+    margin-top: 72vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+}
+.a{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: black;
+}
+
+#b{
+    /* position: sticky; */
+    /* top: 0; */
+}
+video{
+    position: absolute;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+#effect{
+    position: absolute;
+    object-fit: cover;
+    background-color:  rgba(0, 0, 0, 0.692);
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#h1acontainer{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#h1a{
+    color: aliceblue;
+    font-size: 60px;
+    text-shadow: -2px -2px  black;
+}
+p,h6{
+    color: aliceblue;
+    margin-top: 5px;
+    width: 69%;
+    text-align: center;
+}
+h6{
+    margin-top: 9px;
+}
+#page2{
+    color: aliceblue;
+    font-size: 60px;
+    text-shadow: -2px -2px  black;
+    display: flex;
+}

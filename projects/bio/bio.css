@@ -72,3 +72,8 @@ figure,#navup {
     color: aliceblue;
 
 }
+div{
+    border-width: 5px;
+    border-style: solid;
+    border-color: aqua;
+}
